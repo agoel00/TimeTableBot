@@ -12,7 +12,7 @@ bot = telebot.TeleBot(config.API)
 
 @bot.message_handler(commands=['start', 'help'])
 def send_welcome(message):
-    bot.reply_to(message, "Welcome!\n"+
+    bot.reply_to(message, "Welcome CSE-3A \n"+
                           "To view time table for any day just send me a message\n" +
                           "Like this: '\mon'(to view Monday's timetable) \n or 'tue'(to view Tuesday's time table) \n" +
                           "Made with love by Anmol Goel"
