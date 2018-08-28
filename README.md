@@ -1,12 +1,13 @@
 # TimeTableBot
-## Telegram Bot to show the user the specified day's timetable 
+## Telegram Bot to send the user that day's timetable automatically
 
-To get the timetable for a weekday just send the bot a message like - 
+This simple bot sends the day's timetable as a Telegram message everyday of college at 8:45 AM.
 
-> \mon
-* This shows the time table for Monday
+It is deployed on PythonAywhere and is scheduled to run every morning.
+
 
 ### Task List
 - [x] Time table for CSE-3A
-- [ ] Deploy on Heroku
-- [ ] Send timetable everyday automatically
+- [x] Deploy online
+- [x] Send timetable everyday automatically
+- [ ] Scale for other users as well
